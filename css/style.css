@@ -1,11 +1,20 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color:rgba(133, 219, 219, 0.425);
+  background-color:rgba(0, 10, 10, 0.705);
   background-size:cover;
   max-width: 100%;
   overflow-x: hidden;
-  
+  color: #fcfcfc;
+}
+a
+{
+  color: aliceblue;
+}
+p
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
 }
 
 .topnav {
@@ -94,11 +103,14 @@ th, td {
 }
 .row
 {
-    padding: 2%;
-    margin:auto;
+    padding-top: 2%;
     width: 100%;
     overflow: hidden;
-    display: none;
+}
+
+.hide
+{
+  display: none;
 }
 
 .addbg
@@ -114,10 +126,43 @@ th, td {
     padding-right: 1%;
 }
 
+.padfull
+{
+  padding: 100%;
+}
+
 .col6
 {
-    width: 58%;
+  padding-right: 2px;
+  padding-left: 4px;
+    width: 56%;
     float: left;
+}
+
+.col8
+{
+  width:80%;
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0%;
+}
+
+.contain-x
+{
+  overflow-x: auto;
+}
+
+.middle
+{
+  margin: 10%;
+}
+
+.col9
+{
+  width:90%;
+  float: left;
+  padding: 5%;
 }
 
 .round-img
