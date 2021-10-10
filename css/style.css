@@ -87,6 +87,16 @@ th, td {
   padding: 10px;
 }
 
+th
+{
+  font-size: 20px;
+  color: rgb(103, 170, 36);
+}
+
+td:hover
+{
+  background-color: chartreuse;
+}
 
 .container
 {
